@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registerpaciente">
+
+    <Button
+        android:id="@+id/btnRegister2"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/btnPrimary"
+        android:fontFamily="@font/montserratbold"
+        android:text="Terminar Registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telmed" />
+
+    <EditText
+        android:id="@+id/telmed"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_phone_icon"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="@font/montserratregular"
+
+        android:hint="Teléfono medico tratante"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medico" />
+
+    <EditText
+        android:id="@+id/instsalud"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+
+
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_person_icon"
+        android:drawablePadding="12dp"
+
+
+        android:ems="10"
+        android:fontFamily="@font/montserratregular"
+        android:hint=" Institucion de salud"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+
+
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_person_icon"
+
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="@font/montserratregular"
+        android:hint="Direccion "
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instsalud" />
+
+    <EditText
+        android:id="@+id/medico"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+
+
+        android:layout_marginTop="96dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_person_icon"
+
+
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="@font/montserratregular"
+        android:hint="Medico tratante"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instsalud" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/emergencia4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

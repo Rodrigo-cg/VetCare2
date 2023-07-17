@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1042215895055",
+    "project_id": "abiapp-e554c",
+    "storage_bucket": "abiapp-e554c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042215895055:android:dabcda267b09a1e996a37a",
+        "android_client_info": {
+          "package_name": "com.test.vetcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042215895055-mvsnp0gelmonbpesetrqaisvm4pfeoie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-9CtQ9cUXtAFVQsaa-xGd9EQhy3z9rO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042215895055-mvsnp0gelmonbpesetrqaisvm4pfeoie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
